@@ -31,9 +31,9 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('[name].css'),
-    new webpack.optimize.UglifyJsPlugin({
-      minimize: true,
-    }),
+//     new webpack.optimize.UglifyJsPlugin({
+//       minimize: true,
+//     }),
   ],
   devServer: {
     historyApiFallback: true,
